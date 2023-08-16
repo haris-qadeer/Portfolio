@@ -16,7 +16,10 @@ html {
 }
 
 p {
-  color: rgb(85, 85, 85);
+  color: var(--purple);
+}
+h3 {
+  color: var(--purple);
 }
 #desktop-nav {
   background-image: linear-gradient(
@@ -63,7 +66,6 @@ a {
 
 a:hover {
   color: grey;
-  text-decoration: underline;
   text-underline-offset: 1rem;
   text-decoration-color: rgb(181, 181, 181);
 }
@@ -198,11 +200,13 @@ section {
 
 .section__text__p1 {
   text-align: center;
+  color: var(--purple);
 }
 
 .section__text__p2 {
   font-size: 1.75rem;
   margin-bottom: 1rem;
+  color: var(--purple);
 }
 
 .title {
@@ -243,7 +247,8 @@ section {
 
 .btn-color-1,
 .btn-color-2 {
-  border: rgb(53, 53, 53) 0.1rem solid;
+  border: var(--purple) 0.1rem solid;
+  color: var(--purple);
 }
 
 .btn-color-1:hover,
@@ -401,7 +406,7 @@ article .icon {
 }
 
 .project-btn {
-  color: black;
+  color: var(--purple);
   border-color: var(--purple);
 }
 
