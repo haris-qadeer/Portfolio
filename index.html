@@ -38,7 +38,11 @@
     </nav>
     <section id="profile">
       <div class="section__pic-container">
-        <img src="./assets/haris.JPG" alt="Haris Qadeer profile picture" class="about-pic" />
+        <img
+          src="./assets/haris.JPG"
+          alt="Haris Qadeer profile picture"
+          class="about-pic"
+        />
       </div>
       <div class="section__text">
         <p class="section__text__p1">Hello, I'm</p>
@@ -47,7 +51,7 @@
         <div class="btn-container">
           <button
             class="btn btn-color-2"
-            onclick="window.open('./assets/resume-example.pdf')"
+            onclick="window.open('./assets/haris-qadeer-resume.docx')"
           >
             Download CV
           </button>
@@ -75,14 +79,44 @@
       <p class="section__text__p1">Get To Know More</p>
       <h1 class="title">About Me</h1>
       <div class="section-container">
-        <!-- <div class="section__pic-container">
-          <img
-            src="./assets/haris.JPG"
-            alt="Profile picture"
-            class="about-pic"
-          />
-        </div> -->
         <div class="about-details-container">
+          <div class="text-container">
+            <h3>Crafting Digital Solutions with Code</h3>
+            <br />
+            <p>
+              In the ever-evolving world of technology, where innovation knows
+              no bounds, allow me to introduce myself as a passionate software
+              engineer who thrives on transforming ideas into reality through
+              lines of code.
+            </p>
+          </div>
+          <br />
+          <div class="text-container">
+            <h3>Elevating User Experiences with Front-End Expertise:</h3>
+            <br />
+            <p>
+              My canvas lies in the realm of front-end development, where I
+              meticulously craft user interfaces that tell stories and evoke
+              emotions. Proficient in technologies like React.js and Next.js, I
+              orchestrate harmonious symphonies of pixels and code, breathing
+              life into static designs. Through the art of component-based
+              architecture, I build dynamic interfaces that adapt seamlessly to
+              users' needs, ensuring engagement and a seamless flow.
+            </p>
+          </div>
+          <br />
+          <div class="text-container">
+            <h3>Weaving Aesthetics and Functionality with CSS Wizardry:</h3>
+            <br />
+            <p>
+              A user's delight is not only in what an application does, but also
+              in how it looks and feels. My wizardry with CSS frameworks such as
+              Tailwind CSS, Bootstrap, Ant Design and Material-UI allows me to
+              create visually stunning and intuitive interfaces that leave users
+              in awe. The symphony of colors, layouts, and animations come
+              together to create an immersive digital experience.
+            </p>
+          </div>
           <div class="about-containers">
             <div class="details-container">
               <img
@@ -102,16 +136,6 @@
               <h3>Education</h3>
               <p>Bachelors Degree in Arts</p>
             </div>
-          </div>
-          <div class="text-container">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
-              reprehenderit et laborum, rem, dolore eum quod voluptate
-              exercitationem nobis, nihil esse debitis maxime facere minus sint
-              delectus velit in eos quo officiis explicabo deleniti dignissimos.
-              Eligendi illum libero dolorum cum laboriosam corrupti quidem,
-              reiciendis ea magnam? Nulla, impedit fuga!
-            </p>
           </div>
         </div>
       </div>
@@ -262,7 +286,7 @@
                   alt="Experience icon"
                   class="icon"
                 />
-                <div style="width: 100px;">
+                <div style="width: 100px">
                   <h3>Linux</h3>
                   <p>Basic</p>
                 </div>
@@ -284,7 +308,7 @@
                   alt="Experience icon"
                   class="icon"
                 />
-                <div style="width: 100px;">
+                <div style="width: 100px">
                   <h3>Node JS</h3>
                   <p>Basic</p>
                 </div>
@@ -350,74 +374,114 @@
       <div class="experience-details-container">
         <div class="about-containers">
           <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/project-1.png"
-                alt="Project 1"
-                class="project-img"
-              />
-            </div>
             <h2 class="experience-sub-title project-title">Project One</h2>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/haris-qadeer'"
-              >
-                Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/haris-qadeer'"
-              >
-                Live Demo
-              </button>
-            </div>
-          </div>
-          <div class="details-container color-container">
             <div class="article-container">
               <img
-                src="./assets/project-2.png"
-                alt="Project 2"
-                class="project-img"
+                class="slide-1"
+                src="./assets/events-1.png"
+                style="width: 100%"
               />
+              <img
+                class="slide-1"
+                src="./assets/events-2.png"
+                style="width: 100%"
+              />
+              <img
+                class="slide-1"
+                src="./assets/events-3.png"
+                style="width: 100%"
+              />
+
+              <button class="arrow-button" onclick="plusDivs(-1)">
+                &#10094;
+              </button>
+              <button class="arrow-button" onclick="plusDivs(1)">
+                &#10095;
+              </button>
             </div>
-            <h2 class="experience-sub-title project-title">Project Two</h2>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/haris-qadeer'"
+                onclick="window.open('https://github.com/haris-qadeer/NextJs-File-Base-Routing')"
               >
                 Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/haris-qadeer'"
-              >
-                Live Demo
               </button>
             </div>
           </div>
           <div class="details-container color-container">
+            <h2 class="experience-sub-title project-title">Project Two</h2>
             <div class="article-container">
+              <img
+                class="slide-2"
+                src="./assets/blogs-1.png"
+                style="width: 100%"
+              />
+              <img
+                class="slide-2"
+                src="./assets/blogs-2.png"
+                style="width: 100%"
+              />
+              <img
+                class="slide-2"
+                src="./assets/blogs-3.png"
+                style="width: 100%"
+              />
+
+              <button class="arrow-button" onclick="plusDivsTwo(-1)">
+                &#10094;
+              </button>
+              <button class="arrow-button" onclick="plusDivsTwo(1)">
+                &#10095;
+              </button>
+            </div>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="window.open('https://github.com/haris-qadeer/My-Blogs')"
+              >
+                Github
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <!-- <div class="article-container">
               <img
                 src="./assets/project-3.png"
                 alt="Project 3"
                 class="project-img"
               />
-            </div>
+            </div> -->
             <h2 class="experience-sub-title project-title">Project Three</h2>
+            <div class="article-container">
+              <img
+                class="slide-3"
+                src="./assets/login-1.png"
+                style="width: 100%"
+              />
+              <img
+                class="slide-3"
+                src="./assets/login-2.png"
+                style="width: 100%"
+              />
+              <img
+                class="slide-3"
+                src="./assets/login-3.png"
+                style="width: 100%"
+              />
+
+              <button class="arrow-button" onclick="plusDivsThree(-1)">
+                &#10094;
+              </button>
+              <button class="arrow-button" onclick="plusDivsThree(1)">
+                &#10095;
+              </button>
+            </div>
             <div class="btn-container">
               <button
                 class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/haris-qadeer'"
+                onclick="window.open('https://github.com/haris-qadeer/react-login-form-with-nodejs')"
               >
                 Github
-              </button>
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='https://github.com/haris-qadeer'"
-              >
-                Live Demo
               </button>
             </div>
           </div>
@@ -440,7 +504,14 @@
             alt="Email icon"
             class="icon contact-icon email-icon"
           />
-          <p><a style="color: #441b3d" href="mailto:harisninetytwo@gmail.com">harisninetytwo@gmail.com</a></p>
+          <p>
+            <a
+              style="color: #441b3d"
+              target="_blank"
+              href="mailto:harisninetytwo@gmail.com"
+              >harisninetytwo@gmail.com</a
+            >
+          </p>
         </div>
         <div class="contact-info-container">
           <img
@@ -448,10 +519,18 @@
             alt="LinkedIn icon"
             class="icon contact-icon"
           />
-          <p><a style="color: #441b3d" href="https://www.linkedin.com">LinkedIn</a></p>
+          <p>
+            <a
+              style="color: #441b3d"
+              target="_blank"
+              href="https://www.linkedin.com"
+              >LinkedIn</a
+            >
+          </p>
         </div>
       </div>
     </section>
+
     <footer>
       <nav>
         <div class="nav-links-container">

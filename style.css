@@ -460,3 +460,28 @@ footer {
 footer p {
   text-align: center;
 }
+.slide-2 {
+  display: none;
+}
+
+.slide-1 {
+  display: none;
+}
+.slide-3 {
+  display: none;
+}
+
+.arrow-button {
+  background: transparent;
+  color: black;
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  border: 1px solid var(--purple);
+}
+.arrow-button:hover {
+  background-color: var(--purple);
+  color: #fff;
+  cursor: pointer;
+}
