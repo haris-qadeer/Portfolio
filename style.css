@@ -306,7 +306,7 @@ section {
 
 .about-details-container {
   justify-content: center;
-  flex-direction: column;
+  flex-direction: row;
 }
 
 .about-containers,
@@ -484,4 +484,16 @@ footer p {
   background-color: var(--purple);
   color: #fff;
   cursor: pointer;
+}
+
+.child-section {
+  padding: 1.4rem;
+}
+.text-container {
+  border: 1px solid var(--purple);
+  padding: 20px;
+  height: 50vh;
+  border-radius: 2rem;
+  margin: 10px;
+  width: 40%;
 }
