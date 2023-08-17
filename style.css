@@ -59,6 +59,11 @@ nav {
 }
 
 a {
+  color: var(--purple);
+  text-decoration: none;
+  text-decoration-color: white;
+}
+.a {
   color: #fff;
   text-decoration: none;
   text-decoration-color: white;
@@ -401,10 +406,6 @@ article .icon {
   height: 90%;
 }
 
-.project-title {
-  margin: 1rem;
-}
-
 .project-btn {
   color: var(--purple);
   border-color: var(--purple);
@@ -492,8 +493,13 @@ footer p {
 .text-container {
   border: 1px solid var(--purple);
   padding: 20px;
-  height: 50vh;
   border-radius: 2rem;
   margin: 10px;
   width: 40%;
+}
+
+.arrow-up {
+  left: -5rem;
+  position: absolute;
+  bottom: 2.5rem;
 }
